@@ -1,11 +1,18 @@
 html{
     scroll-behavior: smooth;
+    box-sizing:border-box;
 }
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(67, 127, 184);
+    background: rgb(63,244,251);
+    background: radial-gradient(circle, rgba(63,244,251,1) 10%, rgba(50,117,22,1) 100%);
     font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+.besthits-text{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
 }
 #navbar{
     margin:0;
@@ -15,7 +22,8 @@ body{
     position: sticky;
     top: 0;
     left: 0;
-    background-color: rgb(77, 67, 168);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 20%, rgba(0,212,255,1) 100%);
     box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
 }
 #navbar ul{
@@ -57,7 +65,40 @@ body{
 #home img{
     padding: 0 3rem;
 }
-#home img:hover{
-    transform: scale(1.17);
+#playlist-info{
+    margin: 20px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.movie{
+    display: inline-flex;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 320px;
+    width: 1000px;
+    border: 2px solid black;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,136,253,1) 100%);
+}
+.movie-img{
+    width: 60px;
+    padding: 10px 20px;
+}
+.movie-info{
+    padding-right: 50px;
+    padding-left: 150px;
+}
+.movie-img:hover{
+    transform: scale(1.08);
     transition: all 1s;
+}
+.movie-hours{
+    display: inline-block;
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid black;
+    font-size: 1.5rem;
 }
