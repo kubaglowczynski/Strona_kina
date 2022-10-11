@@ -65,7 +65,7 @@ body{
 #home img{
     padding: 0 3rem;
 }
-#playlist-info{
+#playlist-info, .price-sectio-about{
     margin: 20px 10px 0px 10px;
     display: flex;
     justify-content: center;
@@ -101,4 +101,65 @@ body{
     padding: 4px;
     border: 1px solid black;
     font-size: 1.5rem;
+}
+#price-section{
+    background-color: rgb(119, 74, 15);
+    margin: 30px;
+    border: 10px solid brown;
+}
+.price-tickets-adults, .price-tickets-students, .price-tickets-kids{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 60px;
+    border: 2px solid white;
+    font-size: 2rem;
+}
+.price-tickets-adults{
+    background-color: green;
+}
+.price-tickets-students{
+    background-color: pink;
+}
+.price-tickets-kids{
+    background-color: yellow;
+}
+.price-bar-box{
+    background-color: transparent;
+}
+.price-bar-one-third{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 30px;
+}
+.column-price-bar{
+    position: relative;
+    height: 360px;
+    border: 5px solid black;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bottom-right{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 2rem;;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.price-bar-popcorn{
+    background-image: url("https://media.istockphoto.com/photos/popcorn-picture-id492796339?b=1&k=20&m=492796339&s=170667a&w=0&h=Dq0WFChl8DaDxM8YB36c0eLBXFkx6wTCpjrcuzw_e9w=");
+}
+.price-bar-nachos{
+    background-image: url("https://media.istockphoto.com/photos/nachos-and-melted-cheese-picture-id157291939?k=20&m=157291939&s=612x612&w=0&h=ptsopygNCormIDm9E7VbcIeagP5L89WrXz4yfWTuCDU=");
+}
+.price-bar-cola{
+    background-image: url("https://media.istockphoto.com/photos/cola-with-ice-picture-id1359169773?k=20&m=1359169773&s=612x612&w=0&h=xejMAgd774hpBpO4HZ63XzeBVwykGHlumM_Idf0NP1Q=");
 }
