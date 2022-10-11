@@ -69,7 +69,7 @@ body{
     margin: 20px 10px 0px 10px;
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
 }
 .movie{
@@ -123,6 +123,9 @@ body{
 }
 .price-tickets-kids{
     background-color: yellow;
+}
+.price-bar{
+    margin-left: 50px;
 }
 .price-bar-box{
     background-color: transparent;
