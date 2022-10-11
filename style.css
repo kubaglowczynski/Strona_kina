@@ -5,8 +5,8 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background: rgb(63,244,251);
-    background: radial-gradient(circle, rgba(63,244,251,1) 10%, rgba(50,117,22,1) 100%);
+    background: rgb(238,15,15);
+background: radial-gradient(circle, rgba(238,15,15,1) 1%, rgba(216,18,18,1) 12%, rgba(193,20,21,1) 23%, rgba(179,22,23,1) 46%, rgba(45,39,40,1) 100%);
     font-family: "Poppins",Arial, Helvetica, sans-serif;
 }
 .besthits-text{
@@ -22,8 +22,8 @@ body{
     position: sticky;
     top: 0;
     left: 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 20%, rgba(0,212,255,1) 100%);
+    background: rgb(168,56,56);
+    background: linear-gradient(0deg, rgba(168,56,56,1) 5%, rgba(45,39,40,1) 53%);
     box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
 }
 #navbar ul{
@@ -42,7 +42,7 @@ body{
     text-decoration: none;
 }
 #navbar ul li a:hover{
-    color:lightgreen;
+    color:white;
     opacity: 1;
     transition: all 0.15s;
 }
@@ -53,9 +53,9 @@ body{
 .logo-text{
     position: absolute;
     left: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.7rem;
-    color: green;
+    font-family: 'Monoton', cursive;
+    font-size: 2.1rem;
+    color: silver;
 }
 #home{
     display: flex;
@@ -80,8 +80,8 @@ body{
     height: 320px;
     width: 1000px;
     border: 2px solid black;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,136,253,1) 100%);
+    background: rgba(45,39,40,0.6);
+    color: aliceblue;
 }
 .movie-img{
     width: 60px;
@@ -99,13 +99,19 @@ body{
     display: inline-block;
     margin: 5px;
     padding: 4px;
-    border: 1px solid black;
+    border: 2px solid white;
     font-size: 1.5rem;
 }
+.movie-hours:hover{
+    background-color:  rgb(24, 21, 21);
+    cursor:default;
+    opacity: 1;
+    transition: all 0.15s;
+}
 #price-section{
-    background-image: url("https://cdn.pixabay.com/photo/2019/11/07/20/48/cinema-4609877_960_720.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/23/17/33/curtain-1275200_960_720.png");
     margin: 30px;
-    border: 10px solid brown;
+    border: 10px solid rgba(45,39,40,1);
 }
 .price-tickets-adults, .price-tickets-students, .price-tickets-kids{
     display: flex;
