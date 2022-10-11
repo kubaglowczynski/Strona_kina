@@ -103,7 +103,7 @@ body{
     font-size: 1.5rem;
 }
 #price-section{
-    background-color: rgb(119, 74, 15);
+    background-image: url("https://cdn.pixabay.com/photo/2019/11/07/20/48/cinema-4609877_960_720.jpg");
     margin: 30px;
     border: 10px solid brown;
 }
