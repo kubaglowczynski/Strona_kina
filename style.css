@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background: rgb(238,15,15);
-background: radial-gradient(circle, rgba(238,15,15,1) 1%, rgba(216,18,18,1) 12%, rgba(193,20,21,1) 23%, rgba(179,22,23,1) 46%, rgba(45,39,40,1) 100%);
+    background: radial-gradient(circle, rgba(238,15,15,1) 1%, rgba(216,18,18,1) 12%, rgba(193,20,21,1) 23%, rgba(179,22,23,1) 46%, rgba(45,39,40,1) 100%);
     font-family: "Poppins",Arial, Helvetica, sans-serif;
 }
 .besthits-text{
@@ -22,8 +22,7 @@ background: radial-gradient(circle, rgba(238,15,15,1) 1%, rgba(216,18,18,1) 12%,
     position: sticky;
     top: 0;
     left: 0;
-    background: rgb(168,56,56);
-    background: linear-gradient(0deg, rgba(168,56,56,1) 5%, rgba(45,39,40,1) 53%);
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/17/17/14/background-992850_960_720.png");
     box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
 }
 #navbar ul{
