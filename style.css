@@ -141,14 +141,15 @@ body{
     margin: 30px 0px 30px;
 }
 .column-price-bar{
-    position:relative; /* tu zmiana */
-    height: 360px;
     border: 5px solid black;
-    text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    text-align:center;
+    font-size: 2rem;
+    padding-top: 143px;
+    padding-bottom: 143px;
 }
 .bottom-right{
     position: absolute;
@@ -171,10 +172,16 @@ body{
     background-image: url("https://media.istockphoto.com/photos/cola-with-ice-picture-id1359169773?k=20&m=1359169773&s=612x612&w=0&h=xejMAgd774hpBpO4HZ63XzeBVwykGHlumM_Idf0NP1Q=");
 }
 iframe{
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border: 5px solid grey;
 }
 .cinemas-img{
     border: 5px solid grey;
     background-color: grey;
+}
+#contact-section{
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
