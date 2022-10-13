@@ -64,7 +64,9 @@ body{
     max-height: 721px;
 }
 #home img{
-    padding: 0 auto 0 auto;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #playlist-info, .price-sectio-about, .cinemas-title{
     margin: 20px 10px 0px 10px;
@@ -147,10 +149,10 @@ body{
     background-position: center center;
     background-size: cover;
     text-align:center;
-    font-size: 2em;
+    font-size: 1.7vw;
     padding-top: 143px;
     padding-bottom: 143px;
-    padding-right: 5%;
+    padding-right: 1,7vw;
     padding-left: 35%;
 }
 .bottom-right{
