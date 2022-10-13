@@ -66,7 +66,7 @@ body{
 #home img{
     padding: 0 auto 0 auto;
 }
-#playlist-info, .price-sectio-about, .about-title{
+#playlist-info, .price-sectio-about, .cinemas-title{
     margin: 20px 10px 0px 10px;
     display: flex;
     justify-content: center;
@@ -171,4 +171,7 @@ body{
 }
 .price-bar-cola{
     background-image: url("https://media.istockphoto.com/photos/cola-with-ice-picture-id1359169773?k=20&m=1359169773&s=612x612&w=0&h=xejMAgd774hpBpO4HZ63XzeBVwykGHlumM_Idf0NP1Q=");
+}
+iframe{
+    margin-left: 20px;
 }
