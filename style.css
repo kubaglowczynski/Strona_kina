@@ -133,9 +133,7 @@ body{
 .price-bar{
     margin-left: 50px;
 }
-.price-bar-box{
-    background-color: transparent;
-}
+
 .price-bar-one-third{
     width: 30%;
     float: left;
@@ -143,7 +141,7 @@ body{
     margin: 30px 0px 30px;
 }
 .column-price-bar{
-    position: relative;
+    position:relative; /* tu zmiana */
     height: 360px;
     border: 5px solid black;
     text-align: center;
@@ -174,4 +172,9 @@ body{
 }
 iframe{
     margin-left: 20px;
+    border: 5px solid grey;
+}
+.cinemas-img{
+    border: 5px solid grey;
+    background-color: grey;
 }
