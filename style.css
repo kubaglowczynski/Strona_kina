@@ -62,9 +62,10 @@ body{
     display: flex;
     justify-content: center;
     max-height: 721px;
+    width: 100vw;
 }
 #home img{
-    width: 500px;
+    width: 30vw;
     padding-left: 20px;
     padding-right: 20px;
 }
