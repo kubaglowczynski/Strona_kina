@@ -65,7 +65,8 @@ body{
     width: 100vw;
 }
 #home img{
-    width: 30vw;
+    width: 40vw;
+    height: 80vh;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -182,6 +183,8 @@ body{
     font-size: 1vw;
 }
 iframe{
+    width: 30vw;
+    height: 50vh;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid grey;
