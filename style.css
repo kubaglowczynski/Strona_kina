@@ -200,3 +200,30 @@ iframe{
     justify-content: space-around;
     color: white;
 }
+@media screen and (max-width: 600px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #navbar ul li a{
+        font-size: 2vw;
+    }
+    #home img{
+        width: 33%;
+        padding: 0;
+        height: 20vh;
+    }
+    .movie-img{
+        width: 2px;
+        height: 2px;
+    }
+    .movie-info{
+        font-size: 15px;
+    }
+    .movie{
+        width: 90%;
+    }
+    #contact-section{
+        font-size: 2vw;
+    }
+}
