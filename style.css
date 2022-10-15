@@ -1,6 +1,8 @@
 html{
     scroll-behavior: smooth;
     box-sizing:border-box;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
@@ -91,6 +93,10 @@ body{
     width: 60px;
     padding: 10px 20px;
 }
+.movie .movie-img img{
+    width: 200px;
+    height: 300px;
+}
 .movie-info{
     padding-right: 50px;
     padding-left: 150px;
@@ -155,13 +161,6 @@ body{
     font-family: 'Racing Sans One', cursive;
     color: black;
 }
-/*.bottom-right{
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    font-size: 2rem;
-    font-family: 'Racing Sans One', cursive;
-}*/
 .clearfix::after{
     content: "";
     display: block;
@@ -204,26 +203,5 @@ iframe{
     html, body {
         max-width: 100%;
         overflow-x: hidden;
-    }
-    #navbar ul li a{
-        font-size: 2vw;
-    }
-    #home img{
-        width: 33%;
-        padding: 0;
-        height: 20vh;
-    }
-    .movie-img{
-        width: 2px;
-        height: 2px;
-    }
-    .movie-info{
-        font-size: 15px;
-    }
-    .movie{
-        width: 90%;
-    }
-    #contact-section{
-        font-size: 2vw;
     }
 }
