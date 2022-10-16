@@ -178,6 +178,10 @@ body{
     justify-content: space-around;
     color: white;
     font-size: 1vw;
+    background-color: grey;
+}
+.cinemas-towns p{
+    font-size: 1.3vw;
 }
 iframe{
     width: 30vw;
