@@ -183,7 +183,7 @@ body{
 }
 .cinemas-towns p{
     font-size: 1.3vw;
-    font-family: 'Pacifico', cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 iframe{
     width: 30vw;
@@ -270,5 +270,7 @@ iframe{
     iframe{
         height: 120px;
     }
-
+    .cinemas-towns p{
+        font-size: 1.5vh;
+}
 }
